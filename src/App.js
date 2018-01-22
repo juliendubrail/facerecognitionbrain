@@ -98,7 +98,7 @@ class App extends Component {
      this.state.input)
    .then(response => {
        if (response){
-           fetch('htttp:localhost:8080/image', {
+           fetch('htttp:localhost:3000/image', {
              method: 'put',
              headers: {'Content-Type': 'application/json'},
              body: JSON.stringify({
